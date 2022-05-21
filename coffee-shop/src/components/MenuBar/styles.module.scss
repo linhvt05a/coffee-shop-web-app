@@ -1,6 +1,8 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
 
 .container{
-    background-color: black;
+    background-color: $color-black;
     position: sticky;
     .logoContainer{
         .logo{

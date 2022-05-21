@@ -1,0 +1,39 @@
+$color-black: #000000;
+$color-white: #ffffff;
+
+$main-color: #8bc541;
+$text-gray: #3f3f3f;
+$text-title-color: #1c1c1c;
+$bg-gray-theme: #f2f2f2;
+$bg-dark-theme: #000000;
+$bg-light-theme: #ffffff;
+$border-grey: #cacaca;
+
+$um-gray-mid: #3f3f3f;
+$um-gray-dark: #1c1c1c;
+$um-gray-light: #bfbfbf;
+$um-green: #8bc541;
+$um-yellow: #ffd600;
+$um-red: #ff0000;
+$um-blue: #0066cc;
+$um-blue-dark: #0075ff;
+$um-gray: #f1efe9;
+$um-text-red: #ff4d4f;
+$um-gray-lightest: #f2f2f2;
+$um-white: #f0f0f0;
+$um_blue_theme: #001529;
+$dr_bg_not_found:#f6f6f6;
+$mobile-min-width: 240px;
+$mobile-max-width: 767px;
+$tablet-min-width: 768px;
+$tablet-max-width: 1199px;
+
+$font-family-main: 'Poppins';
+$font-family-second: 'Mulish';
+
+:export {
+  bg-gray-theme: $bg-gray-theme;
+}
+$media-mobile: 'screen and (min-width: 240px) and (max-width: 767px)';
+$media-tablet: 'screen and (min-width: 768px) and (max-width: 1199px)';
+$media-pc: 'screen and (min-width: 1200px)';
