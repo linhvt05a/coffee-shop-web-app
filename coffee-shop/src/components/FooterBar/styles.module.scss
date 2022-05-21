@@ -1,6 +1,79 @@
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #000000;
+    height: 20rem;
     width: 100%;
-    height: 400px;
-    background-color: black;
+    .aboutView{
+        padding-left: 6rem;
+        padding-top: 3rem;
+       
+        .textTitle{
+            color: white;
+        }
+        .logo{
+            height: 4.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .menuView{
+        padding-left: 6rem;
+        padding-top: 5rem;
+        text-align: left;
+        .title{
+            color: white;
+            margin-bottom: 2rem;
+        }
+        .subTitle{
+            color: white
+        }
+        .subTitle:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+    .policyView{
+        text-align: left;
+        padding-top: 5rem;
+        .policyTitle{
+            color: white;
+            margin-bottom: 2rem;
+        }
+        .policySubTitle{
+            color: white;
+        }
+        .policySubTitle:hover {
+            text-decoration: underline;
+            cursor: pointer;;
+        }
+    }
+    .viewDownLoad{
+        padding-top: 5rem;
+        padding-right: 6rem;
+        .title{
+            color: white;
+        }
+        .dangky{
+            width: 10rem;
+            height: 4rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+        .viewIcon{
+            padding-right: 6rem;
+            display: flex;
+            .iconAppsStore{
+                width: 8rem;
+                height: 4rem;
+                cursor: pointer;
+            }
+            .googleStore{
+                width: 7rem;
+                height: 2.6rem;
+                cursor: pointer;
+                margin-top: .6rem;
+            }
+        }
+    }
 }

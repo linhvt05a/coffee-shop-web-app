@@ -1,11 +1,20 @@
 
-.mainNav{
-    height: 60px;
-    width: 100%;
+.container{
     background-color: black;
     position: sticky;
-    .navLink{
-        color: white;
-        font-size: 1.6rem;
+    .logoContainer{
+        .logo{
+            height: 3.5rem;
+            cursor: pointer;
+            position: absolute;
+            left: 6.2rem;
+            top: .5rem
+        }
+    }
+    .navContainer{
+        .navBar{
+            display: flex;
+            right: 10rem;
+        }
     }
 }
