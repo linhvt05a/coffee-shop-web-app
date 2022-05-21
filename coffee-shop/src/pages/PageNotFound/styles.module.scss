@@ -1,0 +1,10 @@
+@import 'src/styles/variables';
+@import 'src/styles/mixins';
+
+.container{
+    background-color: $dr_bg_not_found;
+    text-align: center;
+    .images{
+        height: 25rem;
+    }
+}
